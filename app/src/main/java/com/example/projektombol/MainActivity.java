@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
         bubahwarna.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                   bubahwarna.setBackgroundColor(Color.RED);
+
+                bubahwarna.setBackgroundColor(Color.RED);
             }
         });
         //ini adalah perintah click untuk button pesan toast
